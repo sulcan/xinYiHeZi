@@ -34,24 +34,24 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     //首页
     XYHZHomeController *homeVC = [[XYHZHomeController alloc] init];
-    [self addchildVC:homeVC title:@"首页" imageNamed:@"tab_home" selectedImageNamed:nil];
+    [self addchildVC:homeVC title:@"首页" imageNamed:@"" selectedImageNamed:nil];
     
-    [UIImage imageNamed:@"tab_information"];
+    [UIImage imageNamed:@""];
     //分类
     XYHZCategoryController *categoryVC = [[XYHZCategoryController alloc] init];
     
-    [self addchildVC:categoryVC title:@"分类" imageNamed:@"tab_investment" selectedImageNamed:@"tab_investment_selected"];
+    [self addchildVC:categoryVC title:@"分类" imageNamed:@"" selectedImageNamed:@""];
     
     //好物
     XYHZGoodController *goodVC = [[XYHZGoodController alloc] init];
-    [self addchildVC:goodVC title:@"好物" imageNamed:@"tab_loan" selectedImageNamed:nil];
+    [self addchildVC:goodVC title:@"好物" imageNamed:@"" selectedImageNamed:nil];
     
     //攻略
     XYHZStrategyController *strategyVC = [[XYHZStrategyController alloc] init];
-    [self addchildVC:strategyVC title:@"攻略" imageNamed:@"tab_transfer" selectedImageNamed:nil];
+    [self addchildVC:strategyVC title:@"攻略" imageNamed:@"" selectedImageNamed:nil];
     //我的
     XYHZMineController *mineVC = [[XYHZMineController alloc] init];
-    [self addchildVC:mineVC title:@"我的" imageNamed:@"tab_information" selectedImageNamed:nil];
+    [self addchildVC:mineVC title:@"我的" imageNamed:@"" selectedImageNamed:nil];
     
     self.window.rootViewController = self.tabBarVc;
     [self.window makeKeyAndVisible];

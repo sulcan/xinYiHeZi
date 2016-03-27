@@ -14,6 +14,10 @@
 
 @implementation XYHZTabBarController
 
++ (void)initialize {
+    UITabBar *tabBar = [UITabBar appearance];
+    tabBar.tintColor = [UIColor redColor];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
