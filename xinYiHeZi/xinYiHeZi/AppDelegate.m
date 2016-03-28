@@ -26,6 +26,10 @@
     if (!_tabBarVC) {
         _tabBarVC = [[XYHZTabBarController alloc] init];
     }
+    NSLog(@"asdf");
+    /**
+     *  lallalallaala
+     */
     return _tabBarVC;
 }
 
