@@ -23,6 +23,8 @@
 
 
 - (XYHZTabBarController *)tabBarVc{
+    
+    NSLog(@"sssss----%s", __FUNCTION__);
     if (!_tabBarVC) {
         _tabBarVC = [[XYHZTabBarController alloc] init];
     }
